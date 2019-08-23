@@ -19,7 +19,7 @@ const NAMED_ENTITIES = {
  * @param {string} text
  * @return {string}
  */
-export function decodeEntities( text ) {
+export default function decodeEntities( text ) {
 	return text.replace(
 		ENTITY_REGEX,
 		( _, decimal, hex, named ) => {
