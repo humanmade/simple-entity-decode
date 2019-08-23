@@ -13,7 +13,7 @@ Specifically, this library decodes:
 * Numeric decimal entities (`&#163;`)
 * Numeric hexadecimal entities (`&#x000A3;`)
 
-It does **not** handle other named entities.
+It does **not** handle other named entities. Instead, normalise the entities on the server; for example in WordPress, you can use the [`ent2ncr` function](https://developer.wordpress.org/reference/functions/ent2ncr/).
 
 ## Licence
 
