@@ -1,6 +1,6 @@
 # Simple Entity Decode
 
-![npm](https://img.shields.io/npm/v/simple-entity-decode)  
+![npm](https://img.shields.io/npm/v/simple-entity-decode)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/simple-entity-decode)
 
 A tiny library to decodes HTML numeric entities, and the basic XML named entities.
