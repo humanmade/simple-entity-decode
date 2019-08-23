@@ -15,6 +15,15 @@ Specifically, this library decodes:
 
 It does **not** handle other named entities. Instead, normalise the entities on the server; for example in WordPress, you can use the [`ent2ncr` function](https://developer.wordpress.org/reference/functions/ent2ncr/).
 
+## Usage
+
+```es6
+import decodeEntities from 'decode-entities';
+
+decodeEntities( 'Bill &amp; Ted&#8217;s Excellent Adventure' );
+// → "Bill & Ted’s Excellent Adventure"
+```
+
 ## Licence
 
 Copyright 2019 Human Made. Licensed under the [MIT license](LICENSE.txt).
