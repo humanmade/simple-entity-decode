@@ -1,0 +1,18 @@
+{
+	"name": "simple-entity-decode",
+	"version": "0.0.1",
+	"author": {
+		"name": "Human Made",
+		"url": "https://humanmade.com"
+	},
+	"homepage": "https://github.com/humanmade/simple-entity-decode",
+	"license": "MIT",
+	"main": "build.js",
+	"devDependencies": {
+		"rollup": "^1.20.1"
+	},
+	"scripts": {
+		"build": "rollup -f cjs index.js -o build.js",
+		"prepublish": "yarn run build"
+	}
+}
