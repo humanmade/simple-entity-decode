@@ -1,5 +1,8 @@
 # Simple Entity Decode
 
+![npm](https://img.shields.io/npm/v/simple-entity-decode)  
+![npm bundle size](https://img.shields.io/bundlephobia/min/simple-entity-decode)
+
 A tiny library to decodes HTML numeric entities, and the basic XML named entities.
 
 Most entity libraries include complex handling for entities, and include the full list of named entities from the HTML specification. However, most applications and pages don't need this, and can instead normalise entities (e.g. on the server).
