@@ -18,7 +18,7 @@ It does **not** handle other named entities. Instead, normalise the entities on 
 ## Usage
 
 ```es6
-import decodeEntities from 'decode-entities';
+import decodeEntities from 'simple-entity-decode';
 
 decodeEntities( 'Bill &amp; Ted&#8217;s Excellent Adventure' );
 // → "Bill & Ted’s Excellent Adventure"
